@@ -10,6 +10,14 @@ var AppComponent = (function () {
     function AppComponent() {
         this.appTitle = 'Welcome';
         this.appStatus = true;
+        this.appList = [{
+                "ID": "1",
+                "Name": "One"
+            },
+            {
+                "ID": "2",
+                "Name": "Two"
+            }];
     }
     return AppComponent;
 }());
