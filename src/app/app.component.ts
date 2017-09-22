@@ -12,13 +12,13 @@ export class AppComponent {
 
   appList: any[] = [ {
     "ID": "1",
-    "Name" : "One"
+    "url": 'app/Images/One.jpg'
  },
 
  {
     "ID": "2",
-    "Name" : "Two"
+    "url": 'app/Images/Two.jpg'
  } ];
 
- 
+
 }
