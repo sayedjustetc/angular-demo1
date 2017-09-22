@@ -9,6 +9,7 @@ var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
         this.appTitle = 'Welcome';
+        this.appStatus = true;
     }
     return AppComponent;
 }());
